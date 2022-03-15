@@ -1,3 +1,9 @@
+// Write a program to form the smallest number from the given number
+// Note: Don't use arrays to solve a number problem
+// Example:
+// 991233612
+// 12369
+
 #include <stdio.h>
 
 int check_digit_inside(long long int n, int digit)

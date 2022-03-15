@@ -1,5 +1,8 @@
 // Given two numbers in the different base, Write a program to add them and convert the result into the given base
 
+// 2376 84325
+// 65
+
 #include <stdio.h>
 #include <math.h>
 
