@@ -4,14 +4,14 @@
 
 int main()
 {
-    long long int n;
-    scanf("%d", &n);
+    unsigned long int n;
+    scanf("%lu", &n);
     int arr[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
     while (n > 0)
     {
         int rem = n % 10;
         arr[rem] += 1;
-        n /= 10;
+        n = n / 10;
     }
     for (int i = 0; i < 10; ++i)
     {
