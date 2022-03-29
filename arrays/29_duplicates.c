@@ -4,7 +4,6 @@
 
 int main()
 {
-
     int n;
     scanf("%d", &n);
     long int a[n];
