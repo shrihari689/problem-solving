@@ -4,6 +4,7 @@
 
 int main()
 {
+    
     long int n;
     scanf("%ld", &n);
 
