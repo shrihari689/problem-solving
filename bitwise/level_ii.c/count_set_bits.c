@@ -7,7 +7,6 @@ int main()
     
     long int n;
     scanf("%ld", &n);
-
     int count = 0;
 
     while (n > 0)
